@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: rgb(77, 72, 72);
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+}
+.main{
+    background-image: linear-gradient(to top, #7FC9BE,#C9E4DD);
+    height: 95vh;
+    width: 60%;
+    margin: 20px;
+    display: flex;
+    
+   
+}
+.left{
+    background-image: linear-gradient(to right,#F3FDF9,#C9E4DD);
+    width: 30%;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+
+justify-content: center;}
+.img1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.box{
+    margin-left: 30px;
+    justify-content: center;
+}
+.box .name{
+    font-size: 15px;
+    font-weight: 800;
+    justify-content: center;
+    color: #788085;
+    margin-left: 30px;
+}
+.box .title{
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 8px;
+    color:#8898a9;
+    justify-content: center;
+    margin-left: 30px;
+
+}
+.box .icon{
+    margin-top: 60px;
+   
+}
+
+.box .icon p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #657d8c;
+    text-align: left;
+}
+
+.icon p i{
+    margin-left: -30px;
+    padding: 22px;
+    
+}
+
+.circle h4{
+margin-top: 8px;
+color: rgb(244, 241, 241);
+}
+.circle{
+    margin-left: -30px;
+    margin-top: 50px;
+    width: 200px;
+    height: 125px;
+    padding: 10px;
+    background-color: #7FC9BE;
+    border-radius: 10px;
+} 
+.game{
+    margin-top: -80px; 
+    margin-left: 50px;
+}
+.right{
+    font-size: 25px;
+    color: rgb(111,142,166);
+    margin: 80px;
+   
+}
+.border{
+    height: 20px;
+    width:300px;
+    background-color: #e1e7e6;
+    border-radius: 20px;
+}
+.right .card{
+    margin-top: 40px;
+    background-image: linear-gradient(to right,#f1f7f6,#e1efe9);
+    width: 500px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right  .cardimg{
+    width: 120px;
+    height: 120px;
+    border-radius: 60%;
+    padding-left:10px;
+    object-fit: cover;
+    
+}
+.right .cardname p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.borderp{
+    height: 20px;
+    width:280px;
+    background-image: linear-gradient(to right,#8bd8cb,#6bbb98);
+    border-radius: 20px;
+}
+.rightside{
+    margin-top: -45px;
+    padding-right: 15px;
+}
